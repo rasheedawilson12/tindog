@@ -1,0 +1,171 @@
+:root {
+  --primary-color: #ff4c68;
+  --secondary-color: #ef8172;
+  --accent-color: #8f8f8f;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 11% 7%;
+}
+
+/* Nav Bar */
+
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+/* Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+}
+
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.features {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 7% 12%;
+  position: relative;
+  z-index: 1;
+}
+
+.symbol {
+  font-size: 60px;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+}
+
+.symbol:hover {
+  color: var(--primary-color);
+}
+
+.feature-title {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.feature-body {
+  color: var(--accent-color);
+  margin-top: 0;
+  padding: 0 7%;
+  font-size: 1rem;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 12%;
+}
+
+/* Press */
+.press {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+.pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+/* Call to Action */
+.action {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.footer-icon {
+  color: var(--accent-color);
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-icon:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+@media (max-width: 976px) {
+  .title {
+    text-align: center;
+  }
+
+  .title-img {
+    width: 55%;
+    display: block;
+    margin: 25px auto;
+    position: static;
+    transform: rotate(0);
+  }
+}
